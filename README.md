@@ -24,7 +24,7 @@ This project is focused on identifying potential users for the Consumer Financia
 
 **Model Results**
 
-* *Random Forest* *
+*Random Forest*
 ```
 			        BQ1		BQ2
 RandomForest Recall:  		0.7013		0.5236                	
@@ -34,7 +34,7 @@ RandomForest Confusion Matrix:	[[1059   57]	[[1200   14]
                                  [  59   49]]	[  48    3]]
 RandomForest AUC:  		0.9373		0.5496
 ```
-* * SVM * *
+*SVM*
 ```
 			 	BQ1		BQ2
 SVM Recall:  			0.6697		0.5159		
@@ -44,7 +44,7 @@ SVM Confusion Matrix:		[[1071   45]    [[1205    9]
  				[  67   41]]	[  49    2]]
 SVM AUC: 			0.7143		0.5626
 ```
-* *ADABoost* *
+*ADABoost*
 ```
 					BQ1		BQ2
 ADABoost Recall: 			0.6139		0.5			
