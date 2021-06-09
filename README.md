@@ -25,6 +25,12 @@ This project is focused on identifying potential users for the Consumer Financia
 **Model Results**
 
 *Random Forest*
+
+Hyperparameters: 
+- n-estimators: number of trees used in the forest
+- 125 produced highest recall & accuracy
+- max_depth: longest path b/w root node and leaf node
+- 125 produced highest recall & accuracy
 ```
 			        BQ1		BQ2
 RandomForest Recall:  		0.7013		0.5236                	
@@ -35,6 +41,9 @@ RandomForest Confusion Matrix:	[[1059   57]	[[1200   14]
 RandomForest AUC:  		0.9373		0.5496
 ```
 *SVM*
+Hyperparameters:
+- Gamma: Determines the area of influence each point on the model has in creating the hyperplane
+- 100 produced highest recall & accuracy
 ```
 			 	BQ1		BQ2
 SVM Recall:  			0.6697		0.5159		
@@ -45,6 +54,9 @@ SVM Confusion Matrix:		[[1071   45]    [[1205    9]
 SVM AUC: 			0.7143		0.5626
 ```
 *ADABoost*
+Hyperparameters:
+- n-estimators: boosting terminated after this amount
+- 15 produced highest recall & accuracy
 ```
 					BQ1		BQ2
 ADABoost Recall: 			0.6139		0.5			
