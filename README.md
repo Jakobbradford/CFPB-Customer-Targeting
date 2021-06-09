@@ -73,7 +73,7 @@ ADABoost AUC: 				0.9336    	0.7445
 
 Business Question 1 Insights:
 
-The random forest model had the highest predictive power with an F1 score of 0.9048 (BQ1). The variables which contributed most to this conclusion were history with credit, spending habits and issues with financial services in the past. This model is not only effective at predicting 0's (non-users of the product) but effective at predicting viable candidates. It's highly probabable those who were "rejected from using credit" when applying for a credit card turn to alternative products such as prepaid cards, which positively contributed to the models predictive power.
+The random forest model had the highest predictive power with an F1 score of 0.9048 (BQ1). The variables which contributed most to this conclusion were history with credit, spending habits and issues with financial services in the past. This model is not only effective at predicting 0's (non-users of the product) but effective at predicting viable candidates. It's highly probabable those that were "rejected from using credit" when applying for a credit card turned to alternative products such as prepaid cards, which positively contributed to the model's predictive power.
 
 Business Question 2 Insights:
 
