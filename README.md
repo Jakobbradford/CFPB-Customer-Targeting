@@ -41,6 +41,7 @@ RandomForest Confusion Matrix:	[[1059   57]	[[1200   14]
 RandomForest AUC:  		0.9373		0.5496
 ```
 *SVM*
+
 Hyperparameters:
 - Gamma: Determines the area of influence each point on the model has in creating the hyperplane
 - 100 produced highest recall & accuracy
@@ -54,6 +55,7 @@ SVM Confusion Matrix:		[[1071   45]    [[1205    9]
 SVM AUC: 			0.7143		0.5626
 ```
 *ADABoost*
+
 Hyperparameters:
 - n-estimators: boosting terminated after this amount
 - 15 produced highest recall & accuracy
@@ -66,6 +68,16 @@ ADABoost Confusion Matrix: 		[[1081   35]	[[1214    0]
  					[  80   28]]	[  51    0]]
 ADABoost AUC: 				0.9336    	0.7445
 ```
+
+**Conclusion and Insights**
+
+Business Question 1 Insights
+
+The random forest model had the highest predictive power with an F1 score of 0.9048 (BQ1). The variables which contributed most to this conclusion were history with credit, spending habits and issues with financial services in the past. This model is not only effective at predicting 0's (non-users of the product) but effective at predicting users. It's highly probabable those who were "rejected from using credit" when applying for a credit card turn to alternative products such as prepaid cards.
+
+Business Question 2 Insights:
+
+Conversely, the model displayed low predictive power for business question 2, failing to predict 1's accurately. Hyperparameter tuning had little effect on the outcome of the analysis. This is likely attributed to the low sample size of 25/1200+ who reported using high-interest products. It's most likely that the populations surveyed had difficulty obtaining high-interest products, which made it difficult for the model to establish any predictive ability. Data from a different population would need to be collected to further this analysis. Despite this, it's possible for the CFPB to give at-risk users financial education resources after completing the survey in an attempt to better inform users.
 
 
 
