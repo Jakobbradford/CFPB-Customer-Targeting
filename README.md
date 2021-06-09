@@ -6,7 +6,7 @@ What population would be most likely to use a prepaid card over a regular credit
 Potential population considerations:
 - People who have used "alternative" financial products
 - People who have had issues with financial services in the past
-- Had issues with spending issues
+- Had previous spending issues
 - Don't know how to manage their money
 
 **Business Question #2:**
