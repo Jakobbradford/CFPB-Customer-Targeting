@@ -77,7 +77,7 @@ The random forest model had the highest predictive power with an F1 score of 0.9
 
 Business Question 2 Insights:
 
-Conversely, the model displayed low predictive power for business question 2, failing to predict 1's accurately. Hyperparameter tuning had little effect on the outcome of the analysis. This is likely attributed to the low sample size of 25/1200+ who reported using high-interest products. It's most likely that the populations surveyed had difficulty obtaining high-interest products, which made it difficult for the model to establish any predictive ability. Data from a different population would need to be collected to further this analysis. Despite this, it's possible for the CFPB to give at-risk users financial education resources after completing the survey in an attempt to better inform users.
+Conversely, the model displayed low predictive power for business question 2, failing to predict 1's accurately. Hyperparameter tuning had little effect on the outcome of the analysis. This is likely attributed to the low sample size of 25/1200+ who reported using high-interest products. It's most likely that the population surveyed had difficulty obtaining high-interest products, which made it difficult for the model to establish any predictive ability. Data from a different population would need to be collected to further this analysis. Despite this, it's possible for the CFPB to give at-risk users financial education resources after completing the survey in an attempt to better inform users.
 
 
 
